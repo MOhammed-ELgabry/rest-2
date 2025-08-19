@@ -51,7 +51,7 @@ nav{
     height: 30%;
    
     position: absolute;
-    top: 0rem;
+    top: -4rem;
     left: calc(50% -  (80% / 2));
     p{
         color: white;
