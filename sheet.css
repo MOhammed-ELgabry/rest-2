@@ -51,7 +51,7 @@ nav{
     height: 30%;
    
     position: absolute;
-    top: 0rem;
+    top: -4rem;
     left: calc(50% -  (90% / 2));
     p{
         color: white;
@@ -574,4 +574,124 @@ h2{
   }
 }
  
+}
+.sec-5{
+  .big-5{
+    display: flex;
+    align-items: center;
+    /* gap: 2rem; */
+    @media screen and ( max-width:992px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .card-body{
+    .inner-1{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(226, 3, 3);
+      z-index: 5;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      gap: 1.5rem;
+      p{
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 19px;
+        
+      }
+      h2{
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 30px;
+      }
+      &:hover{
+        opacity: 1;
+        animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: .4s;
+      }
+      /* From Uiverse.io by mobinkakei */ 
+.btn {
+  --color1: white;
+  --color2: white;
+  perspective: 1000px;
+  padding: 1em 1em;
+  background: white;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: red;
+  text-shadow: 0 10px 10px #000;
+  cursor: pointer;
+  transform: rotateX(70deg) rotateZ(30deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.btn::before {
+  content: "";
+  width: 100%;
+  height: 15px;
+  background-color: var(--color2);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotateX(90deg);
+  transform-origin: bottom;
+}
+
+.btn::after {
+  content: "";
+  width: 15px;
+  height: 100%;
+  background-color: var(--color1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotateY(-90deg);
+  transform-origin: right;
+}
+
+.btn:hover {
+  transform: rotateX(30deg) rotateZ(0);
+}
+
+    }
+  }
+}
+.sec-6{
+  .big{
+    display: flex;
+    gap: 2rem;
+    @media screen and (max-width:992px ) {
+      flex-direction: column;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+  }
+  .col-6{
+    img{
+      &:hover{
+        cursor: pointer;
+       animation: zoomIn;
+       animation-duration: 1s;
+      }
+    }
+  }
+}
+.sec-7{
+  display: flex;
+  .col-4{
+    height: 400px;
+  }
 }
