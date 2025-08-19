@@ -690,8 +690,14 @@ h2{
   }
 }
 .sec-7{
-  display: flex;
-  .col-4{
-    height: 400px;
+
+  
+  .mid{
+    height: 350px;
+  
+   
   }
+}
+footer{
+  height: 10vh;
 }
