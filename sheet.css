@@ -94,7 +94,7 @@ nav{
 }
 .sec-1{
    @media screen and (max-width:767px) {
-    margin-top: -50rem;
+    margin-top: -100rem;
    }
     .right-1{
         width: 80%;
