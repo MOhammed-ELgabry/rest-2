@@ -47,12 +47,12 @@ nav{
         text-transform: uppercase;
     }
     @media screen  and (max-width:767px){
-         width: 70%;
+         width: 80%;
     height: 30%;
    
     position: absolute;
     top: 0rem;
-    left: calc(50% -  (70% / 2));
+    left: calc(50% -  (80% / 2));
     p{
         color: white;
         font-family:"Poppins", sans-serif ;
