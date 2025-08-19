@@ -93,9 +93,9 @@ nav{
    }
 }
 .sec-1{
-   @media screen and (max-width:767px) {
-    margin-top: -100rem;
-   }
+  @media screen and (max-width:767px) {
+    margin-top: -40rem;
+  }
     .right-1{
         width: 80%;
   
