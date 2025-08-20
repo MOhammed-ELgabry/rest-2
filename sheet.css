@@ -93,7 +93,9 @@ nav{
    }
 }
 .sec-1{
-  
+  @media screen and (max-width:767px) {
+    margin-top: 3.5rem;
+  }
     .right-1{
         width: 80%;
   
@@ -416,6 +418,10 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 50%;
+    @media screen and (max-width:767px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
     
   }
  }
